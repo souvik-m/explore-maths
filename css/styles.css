@@ -5,15 +5,22 @@ html {
 
 /* BODY elements */
 
-.body-layout{
+.body-layout-login{
   background: linear-gradient(#1c6cb1, #0e4371);
   height: inherit;
   width: inherit;
   margin:0;
   display:flex;
-
 }
 
+
+.body-layout{
+  background: linear-gradient(#1c6cb1, #0e4371);
+  height: inherit;
+  width: inherit;
+  margin:0;
+  display: block;
+}
 /* DIV elements */
 
 .div-container{
@@ -89,5 +96,45 @@ html {
 
   background-color: rgba(208,28,28,0.9);     /*#d01c1c*/
 
+}
+
+.topbar-div{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  width: 100%;
+
+}
+
+.topbar-div h1{
+
+  padding:0;
+  font-family: 'Rock Salt', cursive;
+  font-size: 39px;
+  color:#353535;
+  width:100%;
+  margin: 0;
+  position: absolute;
+  left:0;
+  top:0;
+  display: inline-block;
+  background-color: white;
+
+
+}
+
+
+.topbar-div p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  width:15%;
+  text-align: center;
+  margin: 0;
+  z-index: 2;
+  padding-top: 35px;
+
+  position: absolute;
 
 }

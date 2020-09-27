@@ -8,19 +8,32 @@
 
   <title>Xplore - Maths</title>
   <link rel="stylesheet" href="css/styles.css">
+
+<!--
+  <script type="text/javascript">
+      function login(){
+        username = document.getElementById("name").value;
+        window.location ="www.yahoo.com";
+
+      };
+  </script>
+-->
+
+
 </head>
 
-<body class="body-layout">
+<body class="body-layout-login">
 
   <div class="div-container">
 
-    <form id="form-layout">
+    <form id="form-layout" action="rules.html">
       <h1>Login to <font style="font-family: 'Rock Salt', cursive;"><font style="color:#d01c1c">X</font>plore   </font></h1>
       <label for="Name"><b> Name :</b></label><br><br>
-      <input type="text" placeholder="What is your name ?" name="name" required size=30><br><br>
+      <input type="text" placeholder="What is your name ?" name="username" id="name" required size=30><br><br>
 
-      <button type="submit" class="btn">Login </button>
-    </form>
+      <button id="login-btn">Login </button>
+
+    </form >
 
   </div>
 
@@ -34,5 +47,9 @@
 
 
 </body>
+
+
+
+
 
 </html>
